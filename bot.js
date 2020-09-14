@@ -11,10 +11,8 @@ const { prefix, token, bot_info } = require('./config.json');
 
 client.on('message', async message => {
 
-
     const args = message.content.slice(prefix.length).trim().split(' ');
     const cmd = args.shift().toLowerCase();
-
 
 });
 
