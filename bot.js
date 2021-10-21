@@ -1160,7 +1160,7 @@ client.on('message', message => {
                 { name: 'Avionics Design Project', value: 'AER822', inline: true },
                 { name: 'Space Systems Design Project', value: 'AER813', inline: true },
             )
-            .setFooter('Created by Edge', 'https://i.imgur.com/yzBzCiV.jpg');
+            .setFooter('Created by Akus', 'https://i.imgur.com/yzBzCiV.jpg');
         message.channel.send(Embed2);
     }
 });
